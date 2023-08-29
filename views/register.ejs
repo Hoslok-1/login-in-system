@@ -6,6 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    Register page
+    <h1>Register Page</h1>
+    <form action="/register" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <a href="/login">Login</a>
 </body>
 </html>
